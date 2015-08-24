@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'nomorebeer'
-  s.version     = File.read("lib/nomorebeer/version")
+  s.version     = File.read("version")
   s.date        = Time.now.getgm.to_s.split.first
   s.summary     = 'See Changelog'
   s.description = 'NO MORE BEER !!! FOCK !!'
@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.email       = 'poulet_a@epitech.eu',
   s.files       = [
                	  'lib/nomorebeer/nomorebeer.rb',
-               	  'lib/nomorebeer/version',
                	  'lib/nomorebeer.rb',
+               	  'version',
 		  'README.md',
 		  'Rakefile',
                   'Gemfile',
