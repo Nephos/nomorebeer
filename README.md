@@ -2,6 +2,11 @@
 
 ## Star if you're against drunk driving
 
+## Add it to your Gemfile to fight against drunk driving
+```ruby
+gem 'nomorebeer' # action against drunk driving
+```
+
 ```ruby
 raise NoMoreBeer
 ```
