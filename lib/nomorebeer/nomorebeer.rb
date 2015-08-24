@@ -1,2 +1,2 @@
-class NoMoreBeer < Exception
+class NoMoreBeer < StandardError
 end
